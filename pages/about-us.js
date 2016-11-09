@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import AppShell from '../containers/AppShell.js';
+/*import AppShell from '../containers/AppShell.js';
 
 export default class AboutPage extends AppShell {
   constructor(props) {
@@ -16,3 +16,5 @@ export default class AboutPage extends AppShell {
   }
 
 }
+
+*/

@@ -2,13 +2,13 @@ import React from 'react';
 import Link from 'next/link';
 import AppShell from '../containers/AppShell.js';
 
-export default class IndexPage extends AppShell {
+class IndexPage extends React.Component {
   constructor(props) {
     super(props);
   }
 
   render() {
-    return super.render(
+    return (
       <div>
         <h1>Howdy</h1>
       </div>
@@ -16,3 +16,5 @@ export default class IndexPage extends AppShell {
   }
 
 }
+
+export default AppShell(IndexPage);

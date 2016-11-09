@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+  /*
 import AppShell from '../containers/AppShell.js';
 
 export default class ContactPage extends AppShell {
@@ -16,3 +17,4 @@ export default class ContactPage extends AppShell {
   }
 
 }
+*/
