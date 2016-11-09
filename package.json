@@ -1,0 +1,26 @@
+{
+  "name": "nextjs-app-shell",
+  "version": "1.0.0",
+  "description": "A progressive web application shell with nextjs",
+  "scripts": {
+    "test": "jest",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "nextjs",
+    "progressive",
+    "web",
+    "app",
+    "application",
+    "shell",
+    "service",
+    "workers"
+  ],
+  "author": "Paul Dariye <paul.dariye@andela.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^1.1.1"
+  }
+}
