@@ -33,4 +33,5 @@ $ npm run dev
 
 ```bash
 
-
+## Acknowlegdements
+- https://github.com/mmmeff/nextjs-page-template-example

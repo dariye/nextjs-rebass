@@ -21,6 +21,18 @@
   "author": "Paul Dariye <paul.dariye@andela.com>",
   "license": "MIT",
   "dependencies": {
+    "muicss": "^0.9.4",
     "next": "^1.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-load-plugins": "^1.4.0",
+    "gulp-size": "^2.1.0",
+    "psi": "^2.0.4",
+    "run-sequence": "^1.2.2",
+    "sw-precache": "^4.2.1",
+    "sw-toolbox": "^3.4.0"
   }
 }
