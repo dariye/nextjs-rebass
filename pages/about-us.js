@@ -1,20 +1,26 @@
 import React from 'react';
 import Link from 'next/link';
-/*import AppShell from '../containers/AppShell.js';
+import Head from 'next/head';
+import AppShell from '../containers/AppShell.js';
 
-export default class AboutPage extends AppShell {
+class AboutPage extends React.Component {
   constructor(props) {
     super(props);
   }
 
   render() {
-    return super.render(
+    return (
       <div>
+        <Head>
+          <title> Andela - About Us </title>
+        </Head>
         <h1>About Us</h1>
       </div>
     );
   }
 
-}
+};
 
-*/
+export default AppShell(AboutPage);
+
+
