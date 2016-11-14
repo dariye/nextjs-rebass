@@ -1,7 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
-import AppShell from '../containers/AppShell.js';
+import { PageHeader } from 'rebass';
+import App from '../containers/App.js';
 
 class AboutPage extends React.Component {
   constructor(props) {
@@ -12,15 +13,18 @@ class AboutPage extends React.Component {
     return (
       <div>
         <Head>
-          <title> Andela - About Us </title>
+          <title> About Us </title>
         </Head>
-        <h1>About Us</h1>
+        <PageHeader
+          heading="About Page"
+          description="I'll tell you about myself"
+        />
       </div>
     );
   }
 
 };
 
-export default AppShell(AboutPage);
+export default App(AboutPage);
 
 

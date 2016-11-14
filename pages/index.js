@@ -1,6 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
-import AppShell from '../containers/AppShell.js';
+import { style } from 'next/css';
+import Head from 'next/head';
+import { PageHeader } from 'rebass';
+import App from '../containers/App.js';
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -10,11 +13,19 @@ class IndexPage extends React.Component {
   render() {
     return (
       <div>
-        <h1>Howdy</h1>
+        <Head>
+          <title> Index </title>
+        </Head>
+        <div>
+          <PageHeader
+            heading="Index Page"
+            description="I am an index page"
+          />
+        </div>
       </div>
     );
   }
 
 }
 
-export default AppShell(IndexPage);
+export default App(IndexPage);

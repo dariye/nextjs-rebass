@@ -1,7 +1,7 @@
 {
-  "name": "nextjs-app-shell",
+  "name": "nextjs-rebass-starter",
   "version": "1.0.0",
-  "description": "A progressive web application shell with nextjs",
+  "description": "A quick starter with nextjs and rebass",
   "scripts": {
     "test": "jest",
     "dev": "next",
@@ -10,29 +10,28 @@
   },
   "keywords": [
     "nextjs",
-    "progressive",
-    "web",
-    "app",
-    "application",
-    "shell",
-    "service",
-    "workers"
+    "rebass",
+    "jest"
   ],
   "author": "Paul Dariye <paul.dariye@andela.com>",
   "license": "MIT",
   "dependencies": {
     "muicss": "^0.9.4",
-    "next": "^1.1.1"
+    "next": "^1.1.1",
+    "rebass": "^0.3.3"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-htmlmin": "^3.0.0",
-    "gulp-if": "^2.0.2",
-    "gulp-load-plugins": "^1.4.0",
-    "gulp-size": "^2.1.0",
-    "psi": "^2.0.4",
-    "run-sequence": "^1.2.2",
-    "sw-precache": "^4.2.1",
-    "sw-toolbox": "^3.4.0"
+    "babel-jest": "^17.0.0",
+    "enzyme": "^2.6.0",
+    "jest": "^17.0.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "jest": {
+    "collectCoverage": true
   }
 }

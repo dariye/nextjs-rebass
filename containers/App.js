@@ -1,11 +1,12 @@
 import React from 'react';
 import Head from 'next/head';
+import { insertRule, style } from 'next/css';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import Link from 'next/link';
 
 export default Content => {
-  class AppShell extends React.Component {
+  class App extends React.Component {
     constructor(props) {
       super(props);
     }
@@ -15,7 +16,7 @@ export default Content => {
         <div>
           <Head>
             <meta charSet="utf-8" />
-            <title>Andela</title>
+            <title>Nextjs-Rebass</title>
             <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta id="theme-color" name="theme-color" content="#4527A0" />
@@ -24,7 +25,7 @@ export default Content => {
             <link rel="icon" href="static/chrome-touch-icon-192x192.png" sizes="192x192" type="image/png" />
           </Head>
           <Header />
-          <main>
+          <main className={style(styles.page)}>
             <Content
               {...this.props}
               {...this.state}
@@ -37,5 +38,16 @@ export default Content => {
     }
   }
 
-  return AppShell;
+  return App;
 };
+
+// Global styles
+
+insertRule("html, body { margin: 0; padding: 0; }")
+const styles = {
+  page: {
+    padding: '10px'
+  }
+}
+
+

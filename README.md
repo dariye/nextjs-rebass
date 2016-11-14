@@ -1,23 +1,19 @@
-nextjs-app-shell
+nextjs-rebass
 ===
 
-This is an implementation of the [Application Shell
-Architecture](https://github.com/GoogleChrome/application-shell) with
-[nextjs](https://github.com/zeit/next.js)
+Nextjs + rebass starter.
 
 [View Demo](#)
 
 ## What's included
 - [nextjs](https://github.com/zeit/next.js)
-- [service
-  workers](http://www.html5rocks.com/en/tutorials/service-worker/introduction/)
-  with [sw-precache](https://github.com/GoogleChrome/sw-precache)
-- [Web App Manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest)
+- [rebass](jxnblk.com/rebass/)
+- [jest](https://facebook.github.io/jest/)
 
 ## Installation
 Install dependencies
 ```bash
-$ npm install -g gulp now && npm install 
+$ npm install -g now && npm install 
 ```
 
 ## Usage
@@ -30,8 +26,13 @@ Development
 ```bash
 $ npm run dev
 ```
+Goto [localhost:3000](localhost:3000)
 
+Deploy
 ```bash
+$ now # yet it's that simple
+```
 
 ## Acknowlegdements
-- https://github.com/mmmeff/nextjs-page-template-example
+- [nextjs-page-template](https://github.com/mmmeff/nextjs-page-template-example)
+- [nextjs-auth0](https://github.com/luisrudge/next.js-auth0)
