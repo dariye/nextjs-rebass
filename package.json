@@ -1,7 +1,7 @@
 {
   "name": "nextjs-rebass-starter",
   "version": "1.0.0",
-  "description": "A quick starter with nextjs and rebass",
+  "description": "A minimal starter with nextjs and rebass",
   "scripts": {
     "test": "jest",
     "dev": "next",
@@ -16,7 +16,6 @@
   "author": "Paul Dariye <paul.dariye@andela.com>",
   "license": "MIT",
   "dependencies": {
-    "muicss": "^0.9.4",
     "next": "^1.1.1",
     "rebass": "^0.3.3"
   },
