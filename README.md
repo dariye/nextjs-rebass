@@ -3,7 +3,7 @@ nextjs-rebass
 
 Nextjs + rebass starter.
 
-[View Demo](#)
+[View Demo](https://nextjs-rebass-starter-opojphdddt.now.sh/)
 
 ## What's included
 - [nextjs](https://github.com/zeit/next.js)
